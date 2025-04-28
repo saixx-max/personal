@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Personal Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#tasks">Tasks</a></li>
+                <li><a href="#bills">Bills</a></li>
+                <li><a href="#events">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="goals">
+            <h2>Goals</h2>
+            <div id="goal-list">
+                <!-- Goals will be populated here -->
+            </div>
+            <button onclick="addGoal()">Add New Goal</button>
+        </section>
+
+        <section id="tasks">
+            <h2>Tasks</h2>
+            <div id="task-list">
+                <!-- Tasks will be populated here -->
+            </div>
+            <button onclick="addTask()">Add New Task</button>
+        </section>
+
+        <section id="bills">
+            <h2>Bills</h2>
+            <div id="bill-list">
+                <!-- Bills will be populated here -->
+            </div>
+            <button onclick="addBill()">Add New Bill</button>
+        </section>
+
+        <section id="events">
+            <h2>Events</h2>
+            <div id="event-list">
+                <!-- Events will be populated here -->
+            </div>
+            <button onclick="addEvent()">Add New Event</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 My Personal Dashboard</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
